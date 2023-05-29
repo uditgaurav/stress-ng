@@ -24,7 +24,7 @@ jobs:
       - name: Build and Push Docker Image
         uses: docker/build-push-action@v2
         with:
-          context: myapp
+          context: my-app
           push: true
           tags: uditgaurav/exception
 
